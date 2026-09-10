@@ -1,5 +1,7 @@
 # DCS Finite-State Certification Protocol — Reproduction Package
 
+Release archive (v1.0.0, PDF + reproduction package): https://github.com/weijierry/dcs-finite-certification/releases/tag/v1.0.0
+
 Reproduction archive for the preprint:
 
 **A Typed Certification Protocol for Finite-State Causal Abstractions** (The Finite Core of the DCS Research Program), Rongjie Wei, 2026. Preprint, not peer-reviewed.
