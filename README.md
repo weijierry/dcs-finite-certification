@@ -74,6 +74,7 @@ See `CITATION.cff`, or cite:
 - Harvard Dataverse (under review): https://doi.org/10.7910/DVN/TT3HEA
 - OSF Preprints / MetaArXiv (pending moderation): https://osf.io/preprints/metaarxiv/g4zrx_v1
 - OSF Preprints / PsyArXiv (pending moderation): https://osf.io/preprints/psyarxiv/rpyze_v1
+- OSF Preprints / SocArXiv (pending moderation): https://osf.io/preprints/socarxiv/wkbhz_v1
 - SSRN (under review): https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7443099
 - Academia.edu (published): https://www.academia.edu/175363192/
 - ai.viXra.org (submitted, ref 18267497): awaiting screening (Mathematics - General Mathematics)
