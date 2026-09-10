@@ -1,0 +1,14 @@
+schema_version: 1
+model_id: CPIR-APPROX-FINITE-01
+frozen_before_run: true
+tests:
+  - macro_kernel_is_stochastic
+  - micro_kernel_is_stochastic
+  - Dobrushin_coefficient_is_0_5
+  - one_step_defect_is_0_02
+  - finite_horizon_errors_obey_geometric_bound
+  - macro_measurable_target_obeys_same_bound
+  - alpha_one_uses_linear_bound
+  - hidden_target_is_not_certified
+failure_rule: any_tolerance_violation_blocks_CPIR_T2_upgrade
+tolerance: 1.0e-12

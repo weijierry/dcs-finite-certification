@@ -1,0 +1,27 @@
+schema_version: 1
+experiment_id: SCC-XM-001
+frozen_families: [SCC-F1-001, SCC-RG-F0-001, SCC-F2-001]
+primary_metrics:
+  - response_intra_distortion
+  - closure_defect
+  - memory_residual
+  - dynamical_response_alignment
+  - response_rg_alignment
+plateau_parameter: nuisance_flip
+plateau_grid: [0.16, 0.22, 0.28, 0.34, 0.40]
+exact_tolerance: 1.0e-12
+failure_injection:
+  metastable_within_basin_exit_asymmetry: 0.4
+nonreversible_boundary_scan:
+  heterogeneity_grid: [0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8]
+  fixed_forward_rate: 0.34
+  fixed_backward_rate: 0.04
+  maximum_response_distortion: 0.01
+  maximum_closure_defect: 0.005
+  maximum_memory_residual: 0.005
+  minimum_alignment: 0.99
+decision_rules:
+  exact_alignment: metric >= 0.999999999999
+  exact_certificate: residual <= 1.0e-12
+  plateau: all_registered_variations <= 1.0e-12
+  nonreversible_platform_endpoint: largest_grid_value_passing_all_four_thresholds

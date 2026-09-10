@@ -1,0 +1,12 @@
+schema_version: 1
+model_id: CPIR-APPROX-FINITE-01
+model_type: finite_discrete_time_classical_markov
+purpose: regression_certificate_for_CPIR_T2
+distance: total_variation
+macro_contraction: Dobrushin_coefficient
+scope:
+  state_spaces: finite
+  policy: registered_open_loop_or_common_macro_feedback_action
+  memory: none_at_registered_macro_state
+claims_supported: [CPIR-T2]
+claims_not_supported: [continuous_state_extension, quantum_extension, empirical_universality, capability_gain]

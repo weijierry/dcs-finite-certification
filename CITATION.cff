@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite the following reference(s)."
+title: "A Typed Certification Protocol for Finite-State Causal Abstractions"
+abstract: "Coarse-grained dynamics can be well defined while failing to preserve the targets or persistence events that motivate a model. This paper presents a typed certification protocol for finite-state, discrete-time controlled Markov systems. The protocol separates state aggregation, action implementation, history-response equivalence, and event-order quotients, and records their assumptions within a fixed task contract. This record has not been peer-reviewed."
+authors:
+  - family-names: "Wei"
+    given-names: "Rongjie"
+    orcid: "https://orcid.org/0009-0002-0501-5570"
+    affiliation: "Independent Researcher"
+    email: "weirongjie@f.mindas.me"
+version: 1.0.0
+date-released: "待实际公开日"
+license: "CC-BY-4.0"
+repository-code: "待代码仓库地址"
+url: "待 Zenodo 记录 URL"
+doi: "待 Zenodo 分配 DOI"
+keywords:
+  - "causal abstraction"
+  - "controlled Markov chains"
+  - "lumpability"
+  - "intervention consistency"
+  - "finite-horizon error bounds"
+  - "reproducibility"
+  - "finite-state systems"
+preferred-citation:
+  type: article
+  title: "A Typed Certification Protocol for Finite-State Causal Abstractions"
+  authors:
+    - family-names: "Wei"
+      given-names: "Rongjie"
+      orcid: "https://orcid.org/0009-0002-0501-5570"
+      affiliation: "Independent Researcher"
+  year: 2026
+  note: "Preprint, not peer-reviewed"

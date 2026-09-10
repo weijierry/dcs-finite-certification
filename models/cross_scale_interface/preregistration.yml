@@ -1,0 +1,36 @@
+schema_version: 1
+study_id: CSR-F0-001-A
+frozen_before_result_interpretation: true
+primary_partition: [[A0, A1], [B0, B1], [D]]
+primary_predictions:
+  symmetric_joint_exactness:
+    conditions: [heterogeneity_equals_zero]
+    expected:
+      response_intra_distortion: 0
+      closure_defect: 0
+      memory_residual: 0
+      intervention_exchange_error: 0
+      persistence_distortion: 0
+      response_inter_separation: positive
+  heterogeneity_separation:
+    conditions: [heterogeneity_equals_0_25]
+    expected:
+      response_intra_distortion: positive
+      closure_defect: positive
+      memory_residual: positive
+  pareto_test:
+    conditions: [all_15_partitions_enumerated]
+    expected:
+      registered_partition_on_symmetric_frontier: true
+      identity_partition_dominated: true
+  two_stage_admission:
+    conditions: [nondegenerate_response, strict_compression, all_registered_errors_below_1e_10]
+    expected:
+      symmetric_exact_interface_labels: [A0A1|B0B1|D]
+      heterogeneous_exact_interface_labels: []
+failure_policy:
+  exactness_failure: retire_CSR_P1_or_fix_implementation
+  heterogeneity_failure: retire_CSR_P2_or_change_counterexample
+  pareto_failure: preserve_raw_metrics_and_revise_interface_objectives
+result_file: results.json
+test_file: ../../tests/test_cross_scale_interface.py

@@ -1,0 +1,1065 @@
+{
+  "symmetric": {
+    "model_type": "F0 finite controlled Markov chain",
+    "heterogeneity": 0.0,
+    "partition_count": 15,
+    "registered_partition": {
+      "partition": [
+        [
+          "A0",
+          "A1"
+        ],
+        [
+          "B0",
+          "B1"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "label": "A0A1|B0B1|D",
+      "live_block_count": 2,
+      "interface_cost": 0.5,
+      "causal_response_spectrum": [
+        0.8408198698221453,
+        0.0
+      ],
+      "causal_response_rank": 1,
+      "causal_response_effective_rank": 1.0,
+      "response_intra_distortion": 0.0,
+      "response_inter_separation": 0.3362589504232761,
+      "closure_defect": 0.0,
+      "memory_residual": 6.245004513516506e-17,
+      "intervention_exchange_error": 0.0,
+      "persistence_score": 0.7796479999999999,
+      "persistence_distortion": 0.0
+    },
+    "pareto_labels": [
+      "A0A1B0B1|D",
+      "A0A1|B0B1|D"
+    ],
+    "pareto_count": 2,
+    "exact_interface_labels": [
+      "A0A1|B0B1|D"
+    ],
+    "exact_interface_count": 1,
+    "certificates": [
+      {
+        "partition": [
+          [
+            "A0",
+            "A1",
+            "B0",
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0A1B0B1|D",
+        "live_block_count": 1,
+        "interface_cost": 0.25,
+        "causal_response_spectrum": [],
+        "causal_response_rank": 0,
+        "causal_response_effective_rank": 0.0,
+        "response_intra_distortion": 0.3362589504232761,
+        "response_inter_separation": 0.0,
+        "closure_defect": 0.07900000000000001,
+        "memory_residual": 0.06440474999999996,
+        "intervention_exchange_error": 0.0,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06702400000000008
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "A1",
+            "B0"
+          ],
+          [
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0A1B0|B1|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.37369771992095346,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.3362589504232761,
+        "response_inter_separation": 0.22546318468589566,
+        "closure_defect": 0.31899999999999984,
+        "memory_residual": 0.14410988888888882,
+        "intervention_exchange_error": 0.6666666666666667,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06702400000000008
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "A1",
+            "B1"
+          ],
+          [
+            "B0"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0A1B1|B0|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.37369771992095346,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.3362589504232761,
+        "response_inter_separation": 0.22546318468589566,
+        "closure_defect": 0.31899999999999984,
+        "memory_residual": 0.14410988888888882,
+        "intervention_exchange_error": 0.6666666666666667,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06702400000000008
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "A1"
+          ],
+          [
+            "B0",
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0A1|B0B1|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.8408198698221453,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.0,
+        "response_inter_separation": 0.3362589504232761,
+        "closure_defect": 0.0,
+        "memory_residual": 6.245004513516506e-17,
+        "intervention_exchange_error": 0.0,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.0
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "A1"
+          ],
+          [
+            "B0"
+          ],
+          [
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0A1|B0|B1|D",
+        "live_block_count": 3,
+        "interface_cost": 0.75,
+        "causal_response_spectrum": [
+          0.7473954398419069,
+          0.0,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.0,
+        "response_inter_separation": 0.0,
+        "closure_defect": 0.18,
+        "memory_residual": 0.05589,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.0
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "B0",
+            "B1"
+          ],
+          [
+            "A1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0B0B1|A1|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.37369771992095346,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.3362589504232761,
+        "response_inter_separation": 0.22437596550857572,
+        "closure_defect": 0.265,
+        "memory_residual": 0.11805655555555558,
+        "intervention_exchange_error": 0.6666666666666667,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06702400000000008
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "B0"
+          ],
+          [
+            "A1",
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0B0|A1B1|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.0,
+          0.0
+        ],
+        "causal_response_rank": 0,
+        "causal_response_effective_rank": 0.0,
+        "response_intra_distortion": 0.3362589504232761,
+        "response_inter_separation": 0.0,
+        "closure_defect": 0.07900000000000001,
+        "memory_residual": 0.06440474999999993,
+        "intervention_exchange_error": 0.0,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06702400000000008
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "B0"
+          ],
+          [
+            "A1"
+          ],
+          [
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0B0|A1|B1|D",
+        "live_block_count": 3,
+        "interface_cost": 0.75,
+        "causal_response_spectrum": [
+          0.5605465798814302,
+          7.462978534500539e-33,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.3362589504232761,
+        "response_inter_separation": 0.17135003450108569,
+        "closure_defect": 0.24,
+        "memory_residual": 0.15410474999999996,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06702400000000008
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "B1"
+          ],
+          [
+            "A1",
+            "B0"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0B1|A1B0|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.0,
+          0.0
+        ],
+        "causal_response_rank": 0,
+        "causal_response_effective_rank": 0.0,
+        "response_intra_distortion": 0.3362589504232761,
+        "response_inter_separation": 0.0,
+        "closure_defect": 0.11499999999999988,
+        "memory_residual": 0.06440474999999984,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06702400000000008
+      },
+      {
+        "partition": [
+          [
+            "A0"
+          ],
+          [
+            "A1",
+            "B0",
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0|A1B0B1|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.37369771992095346,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.3362589504232761,
+        "response_inter_separation": 0.22437596550857572,
+        "closure_defect": 0.265,
+        "memory_residual": 0.11805655555555558,
+        "intervention_exchange_error": 0.6666666666666667,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06702400000000008
+      },
+      {
+        "partition": [
+          [
+            "A0"
+          ],
+          [
+            "A1",
+            "B0"
+          ],
+          [
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0|A1B0|B1|D",
+        "live_block_count": 3,
+        "interface_cost": 0.75,
+        "causal_response_spectrum": [
+          0.5605465798814302,
+          7.462978534500539e-33,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.3362589504232761,
+        "response_inter_separation": 0.17135003450108569,
+        "closure_defect": 0.11499999999999988,
+        "memory_residual": 0.1042537499999999,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06702400000000008
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "B1"
+          ],
+          [
+            "A1"
+          ],
+          [
+            "B0"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0B1|A1|B0|D",
+        "live_block_count": 3,
+        "interface_cost": 0.75,
+        "causal_response_spectrum": [
+          0.5605465798814302,
+          7.462978534500539e-33,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.3362589504232761,
+        "response_inter_separation": 0.17135003450108569,
+        "closure_defect": 0.11499999999999988,
+        "memory_residual": 0.1042537499999999,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06702400000000008
+      },
+      {
+        "partition": [
+          [
+            "A0"
+          ],
+          [
+            "A1",
+            "B1"
+          ],
+          [
+            "B0"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0|A1B1|B0|D",
+        "live_block_count": 3,
+        "interface_cost": 0.75,
+        "causal_response_spectrum": [
+          0.5605465798814302,
+          7.462978534500539e-33,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.3362589504232761,
+        "response_inter_separation": 0.17135003450108569,
+        "closure_defect": 0.24,
+        "memory_residual": 0.15410474999999996,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06702400000000008
+      },
+      {
+        "partition": [
+          [
+            "A0"
+          ],
+          [
+            "A1"
+          ],
+          [
+            "B0",
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0|A1|B0B1|D",
+        "live_block_count": 3,
+        "interface_cost": 0.75,
+        "causal_response_spectrum": [
+          0.7473954398419069,
+          2.7755575615628914e-17,
+          2.7755575615628914e-17
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.0,
+        "response_inter_separation": 0.0,
+        "closure_defect": 0.18,
+        "memory_residual": 0.05355000000000001,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.0
+      },
+      {
+        "partition": [
+          [
+            "A0"
+          ],
+          [
+            "A1"
+          ],
+          [
+            "B0"
+          ],
+          [
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0|A1|B0|B1|D",
+        "live_block_count": 4,
+        "interface_cost": 1.0,
+        "causal_response_spectrum": [
+          0.8408198698221454,
+          2.7755575615628914e-17,
+          0.0,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.0,
+        "response_inter_separation": 0.0,
+        "closure_defect": 0.0,
+        "memory_residual": 0.0,
+        "intervention_exchange_error": 0.0,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.0
+      }
+    ]
+  },
+  "heterogeneous": {
+    "model_type": "F0 finite controlled Markov chain",
+    "heterogeneity": 0.25,
+    "partition_count": 15,
+    "registered_partition": {
+      "partition": [
+        [
+          "A0",
+          "A1"
+        ],
+        [
+          "B0",
+          "B1"
+        ],
+        [
+          "D"
+        ]
+      ],
+      "label": "A0A1|B0B1|D",
+      "live_block_count": 2,
+      "interface_cost": 0.5,
+      "causal_response_spectrum": [
+        0.8548949485693665,
+        0.0
+      ],
+      "causal_response_rank": 1,
+      "causal_response_effective_rank": 1.0,
+      "response_intra_distortion": 0.05811087044136446,
+      "response_inter_separation": 0.33909251334547674,
+      "closure_defect": 0.08999999999999997,
+      "memory_residual": 0.03860999999999995,
+      "intervention_exchange_error": 0.0,
+      "persistence_score": 0.7796479999999999,
+      "persistence_distortion": 0.005687999999999915
+    },
+    "pareto_labels": [
+      "A0A1B0B1|D",
+      "A0A1|B0B1|D",
+      "A0B0|A1B1|D",
+      "A0|A1|B0B1|D",
+      "A0|A1|B0|B1|D"
+    ],
+    "pareto_count": 5,
+    "exact_interface_labels": [],
+    "exact_interface_count": 0,
+    "certificates": [
+      {
+        "partition": [
+          [
+            "A0",
+            "A1",
+            "B0",
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0A1B0B1|D",
+        "live_block_count": 1,
+        "interface_cost": 0.25,
+        "causal_response_spectrum": [],
+        "causal_response_rank": 0,
+        "causal_response_effective_rank": 0.0,
+        "response_intra_distortion": 0.39131900371795764,
+        "response_inter_separation": 0.0,
+        "closure_defect": 0.07900000000000007,
+        "memory_residual": 0.06724874999999998,
+        "intervention_exchange_error": 0.0,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.07296400000000003
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "A1",
+            "B0"
+          ],
+          [
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0A1B0|B1|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.4969116387820053,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.34059624296179447,
+        "response_inter_separation": 0.2625989785813838,
+        "closure_defect": 0.31900000000000006,
+        "memory_residual": 0.14613611111111113,
+        "intervention_exchange_error": 0.6666666666666667,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06742000000000004
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "A1",
+            "B1"
+          ],
+          [
+            "B0"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0A1B1|B0|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.279039746676674,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.39131900371795764,
+        "response_inter_separation": 0.19372439656313947,
+        "closure_defect": 0.31899999999999995,
+        "memory_residual": 0.15526188888888887,
+        "intervention_exchange_error": 0.6666666666666667,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.07296400000000003
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "A1"
+          ],
+          [
+            "B0",
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0A1|B0B1|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.8548949485693665,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.05811087044136446,
+        "response_inter_separation": 0.33909251334547674,
+        "closure_defect": 0.08999999999999997,
+        "memory_residual": 0.03860999999999995,
+        "intervention_exchange_error": 0.0,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.005687999999999915
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "A1"
+          ],
+          [
+            "B0"
+          ],
+          [
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0A1|B0|B1|D",
+        "live_block_count": 3,
+        "interface_cost": 0.75,
+        "causal_response_spectrum": [
+          0.7716238331479812,
+          0.00031636118366520054,
+          0.0
+        ],
+        "causal_response_rank": 2,
+        "causal_response_effective_rank": 1.0008199879705522,
+        "response_intra_distortion": 0.05811087044136446,
+        "response_inter_separation": 0.057723418910503844,
+        "closure_defect": 0.22499999999999998,
+        "memory_residual": 0.07661249999999994,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.005687999999999915
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "B0",
+            "B1"
+          ],
+          [
+            "A1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0B0B1|A1|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.49967979873595525,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.3407667013002235,
+        "response_inter_separation": 0.26151938192341223,
+        "closure_defect": 0.2650000000000001,
+        "memory_residual": 0.1105954444444445,
+        "intervention_exchange_error": 0.6666666666666667,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06727600000000011
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "B0"
+          ],
+          [
+            "A1",
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0B0|A1B1|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.00011526007191407074,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.39131900371795764,
+        "response_inter_separation": 0.0037373218040470104,
+        "closure_defect": 0.07900000000000007,
+        "memory_residual": 0.06724874999999998,
+        "intervention_exchange_error": 0.0,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.07296400000000003
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "B0"
+          ],
+          [
+            "A1"
+          ],
+          [
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0B0|A1|B1|D",
+        "live_block_count": 3,
+        "interface_cost": 0.75,
+        "causal_response_spectrum": [
+          0.7473686607762089,
+          0.00010053071157571941,
+          2.446242931535074e-18
+        ],
+        "causal_response_rank": 2,
+        "causal_response_effective_rank": 1.000269025756719,
+        "response_intra_distortion": 0.28899452200470227,
+        "response_inter_separation": 0.20118322973697492,
+        "closure_defect": 0.24,
+        "memory_residual": 0.15234075000000002,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06173200000000012
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "B1"
+          ],
+          [
+            "A1",
+            "B0"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0B1|A1B0|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.018374958073147644,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.3407667013002235,
+        "response_inter_separation": 0.0476895488202069,
+        "closure_defect": 0.19599999999999995,
+        "memory_residual": 0.09378824999999998,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06742000000000004
+      },
+      {
+        "partition": [
+          [
+            "A0"
+          ],
+          [
+            "A1",
+            "B0",
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0|A1B0B1|D",
+        "live_block_count": 2,
+        "interface_cost": 0.5,
+        "causal_response_spectrum": [
+          0.27705355663101583,
+          0.0
+        ],
+        "causal_response_rank": 1,
+        "causal_response_effective_rank": 1.0,
+        "response_intra_distortion": 0.39131900371795764,
+        "response_inter_separation": 0.19256871398184552,
+        "closure_defect": 0.265,
+        "memory_residual": 0.12736055555555553,
+        "intervention_exchange_error": 0.6666666666666667,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.07296400000000003
+      },
+      {
+        "partition": [
+          [
+            "A0"
+          ],
+          [
+            "A1",
+            "B0"
+          ],
+          [
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0|A1B0|B1|D",
+        "live_block_count": 3,
+        "interface_cost": 0.75,
+        "causal_response_spectrum": [
+          0.584184608848263,
+          0.0003726117277578157,
+          4.1159676724994176e-18
+        ],
+        "causal_response_rank": 2,
+        "causal_response_effective_rank": 1.001275663790263,
+        "response_intra_distortion": 0.34059624296179447,
+        "response_inter_separation": 0.12394555903104272,
+        "closure_defect": 0.19599999999999995,
+        "memory_residual": 0.12418199999999995,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06742000000000004
+      },
+      {
+        "partition": [
+          [
+            "A0",
+            "B1"
+          ],
+          [
+            "A1"
+          ],
+          [
+            "B0"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0B1|A1|B0|D",
+        "live_block_count": 3,
+        "interface_cost": 0.75,
+        "causal_response_spectrum": [
+          0.5877634351269165,
+          0.0003595479488104044,
+          2.3003550838553552e-17
+        ],
+        "causal_response_rank": 2,
+        "causal_response_effective_rank": 1.0012234439666652,
+        "response_intra_distortion": 0.3407667013002235,
+        "response_inter_separation": 0.12482130502526032,
+        "closure_defect": 0.14199999999999996,
+        "memory_residual": 0.08869950000000001,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.06727600000000011
+      },
+      {
+        "partition": [
+          [
+            "A0"
+          ],
+          [
+            "A1",
+            "B1"
+          ],
+          [
+            "B0"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0|A1B1|B0|D",
+        "live_block_count": 3,
+        "interface_cost": 0.75,
+        "causal_response_spectrum": [
+          0.41699491169925373,
+          0.00010067913082792873,
+          0.0
+        ],
+        "causal_response_rank": 2,
+        "causal_response_effective_rank": 1.0004828793931744,
+        "response_intra_distortion": 0.39131900371795764,
+        "response_inter_separation": 0.1461995510926258,
+        "closure_defect": 0.24,
+        "memory_residual": 0.15586874999999997,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.07296400000000003
+      },
+      {
+        "partition": [
+          [
+            "A0"
+          ],
+          [
+            "A1"
+          ],
+          [
+            "B0",
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0|A1|B0B1|D",
+        "live_block_count": 3,
+        "interface_cost": 0.75,
+        "causal_response_spectrum": [
+          0.772141895361059,
+          0.0003847764018062421,
+          0.0
+        ],
+        "causal_response_rank": 2,
+        "causal_response_effective_rank": 1.000996646623031,
+        "response_intra_distortion": 0.057723418910503844,
+        "response_inter_separation": 0.05811087044136446,
+        "closure_defect": 0.22499999999999998,
+        "memory_residual": 0.07368750000000007,
+        "intervention_exchange_error": 0.5,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.005543999999999993
+      },
+      {
+        "partition": [
+          [
+            "A0"
+          ],
+          [
+            "A1"
+          ],
+          [
+            "B0"
+          ],
+          [
+            "B1"
+          ],
+          [
+            "D"
+          ]
+        ],
+        "label": "A0|A1|B0|B1|D",
+        "live_block_count": 4,
+        "interface_cost": 1.0,
+        "causal_response_spectrum": [
+          0.8728596839847551,
+          0.00041453238789081366,
+          0.00011095034178234028,
+          1.926958825013275e-17
+        ],
+        "causal_response_rank": 3,
+        "causal_response_effective_rank": 1.0012041690183444,
+        "response_intra_distortion": 0.0,
+        "response_inter_separation": 0.057723418910503844,
+        "closure_defect": 0.0,
+        "memory_residual": 0.0,
+        "intervention_exchange_error": 0.0,
+        "persistence_score": 0.7796479999999999,
+        "persistence_distortion": 0.0
+      }
+    ]
+  }
+}

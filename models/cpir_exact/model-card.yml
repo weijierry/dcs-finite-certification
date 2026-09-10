@@ -1,0 +1,26 @@
+schema_version: 1
+model_id: CPIR-F0-EXACT-REGRESSION
+version: 1.0
+model_type: F0
+cpir_profile: CPIR-C
+closure_class: D0-exact
+state_space: finite
+dynamics: finite_row_stochastic_kernels_and_deterministic_maps
+purpose: logical_nonimplication_regression_and_positive_exact_certificate
+cases: [positive, CPIR-X1, CPIR-X2, CPIR-X3, CPIR-X4, CPIR-X5, CPIR-X6, CPIR-X7, CPIR-X8]
+reused_results:
+  - finite_poset_quotient_acyclicity_requirement
+  - strongly_connected_component_condensation
+  - Kemeny_Snell_strong_lumpability
+  - macro_intervention_implementation_invariance
+  - measurable_factorization
+dcs_specific_stitching:
+  - event_state_intervention_response_persistence_type_separation
+  - joint_regression_gate_for_CPIR_T1_and_CPIR_C1
+evidence_scope: finite_exact_logical_examples
+does_not_establish:
+  - continuous_or_infinite_CPIR
+  - quantum_CPIR
+  - approximate_error_bounds
+  - empirical_capability_emergence
+

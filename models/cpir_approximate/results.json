@@ -1,0 +1,29 @@
+{
+  "contractive": {
+    "alpha": 0.5,
+    "one_step_defect": 0.02,
+    "horizons": [
+      {"horizon": 0, "error": 0.0, "bound": 0.0},
+      {"horizon": 1, "error": 0.02, "bound": 0.02},
+      {"horizon": 2, "error": 0.01, "bound": 0.03},
+      {"horizon": 3, "error": 0.005, "bound": 0.035},
+      {"horizon": 4, "error": 0.0025, "bound": 0.0375},
+      {"horizon": 5, "error": 0.00125, "bound": 0.03875},
+      {"horizon": 6, "error": 0.000625, "bound": 0.039375},
+      {"horizon": 7, "error": 0.0003125, "bound": 0.0396875},
+      {"horizon": 8, "error": 0.00015625, "bound": 0.03984375},
+      {"horizon": 9, "error": 0.000078125, "bound": 0.039921875},
+      {"horizon": 10, "error": 0.0000390625, "bound": 0.0399609375},
+      {"horizon": 11, "error": 0.00001953125, "bound": 0.03998046875},
+      {"horizon": 12, "error": 0.000009765625, "bound": 0.039990234375}
+    ],
+    "bounded_target_error": 0.000009765625,
+    "target_bound": 0.039990234375
+  },
+  "noncontractive": {"alpha": 1.0, "defect": 0.02, "horizon": 8, "linear_bound": 0.16},
+  "hidden_target": {
+    "macro_distribution_error": 0.0,
+    "hidden_target_error": 1.0,
+    "lesson": "distribution closure does not certify a non-macro-measurable target"
+  }
+}

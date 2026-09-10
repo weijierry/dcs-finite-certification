@@ -1,0 +1,21 @@
+schema_version: 1
+model_ids: [SCC-F1-001, SCC-RG-F0-001, SCC-F2-001]
+title: 选择性因果压缩跨模型验证
+status: executable
+model_types:
+  - finite_discrete_time_markov_chain
+  - finite_hierarchical_product_chain
+  - finite_nonproduct_nonreversible_markov_chain
+state_sizes: [6, 8, 8]
+external_results_reused:
+  - finite_markov_spectral_decomposition
+  - kemeny_snell_lumpability
+  - response_distribution_geometry
+  - principal_angle_alignment
+  - stationary_probability_current
+dcs_role: test_joint_certificate_plateau_and_alignment
+claims:
+  - SCC-P1
+  - SCC-P2
+  - SCC-P3
+scope_warning: Exact results are restricted to the registered finite model families.

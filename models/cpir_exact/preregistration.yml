@@ -1,0 +1,24 @@
+schema_version: 1
+model_id: CPIR-F0-EXACT-REGRESSION
+frozen_expectations:
+  positive:
+    lumpability_defect: 0
+    target_measurability_defect: 0
+    persistence_measurability_defect: 0
+    implementation_invariant: true
+  CPIR-X1: macro_cycle_true
+  CPIR-X2: repaired_partition_differs
+  CPIR-X3: lumpability_defect_positive
+  CPIR-X4: implementation_invariance_false
+  CPIR-X5: exact_dynamics_and_nonmeasurable_target
+  CPIR-X6: one_step_equal_and_two_step_unequal
+  CPIR-X7: persistence_measurability_defect_positive
+  CPIR-X8: compression_positive_and_capability_gain_false
+retirement_trigger: any_registered_expectation_fails_under_unchanged_code_and_contract
+recertification_trigger:
+  - partition_change
+  - intervention_family_change
+  - target_family_change
+  - persistence_identity_change
+  - time_horizon_change
+

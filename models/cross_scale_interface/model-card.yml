@@ -1,0 +1,49 @@
+schema_version: 1
+model_id: CSR-F0-001
+proposition_ids: [CSR-P1, CSR-P2]
+title: 有限受控Markov跨尺度因果接口原型
+model_type: F0
+state_space: [A0, A1, B0, B1, D]
+absorbing_failure_state: D
+actions: [baseline, protect_a, protect_b]
+horizons: [1, 2, 3]
+outcomes: [A, B, D]
+registered_partition:
+  - [A0, A1]
+  - [B0, B1]
+  - [D]
+registered_micro_interventions: [identity, flip_internal, swap_family, reset_zero]
+candidate_space: all_15_set_partitions_of_four_live_states_with_D_fixed_singleton
+distance: root_mean_Jensen_Shannon_over_action_horizon_outcomes
+closure_test: controlled_Kemeny_Snell_block_transition_defect
+memory_test: two_step_pushforward_vs_squared_uniform_coarse_kernel_total_variation
+intervention_test: deterministic_micro_intervention_macro_image_total_variation
+persistence_test: baseline_three_step_survival_and_within_block_survival_distortion
+selection_rule: seven_objective_Pareto_nondominance
+admission_before_selection:
+  - interface_cost_strictly_below_identity
+  - response_inter_separation_above_1e_6
+  - response_intra_distortion_at_most_1e_10
+  - closure_memory_intervention_and_persistence_distortions_at_most_1e_10
+frozen_parameters:
+  internal_probability: 0.24
+  cross_probability: 0.18
+  death_A: 0.06
+  death_B: 0.10
+  protection_death_multiplier: 0.35
+  protection_cross_multiplier: 0.80
+perturbation:
+  name: signed_internal_index_cross_heterogeneity
+  baseline: 0.0
+  counterexample_value: 0.25
+scope:
+  supports:
+    - finite_joint_computation_of_response_closure_memory_intervention_persistence_and_cost_axes
+    - exact_registered_partition_specialization_at_zero_heterogeneity
+    - controlled_counterexample_under_block_internal_heterogeneity
+    - exhaustive_partition_Pareto_baseline
+  does_not_support:
+    - universal_existence_of_a_nontrivial_effective_level
+    - continuum_causal_manifold
+    - nontrivial_RG_fixed_point
+    - universal_CPIR_law

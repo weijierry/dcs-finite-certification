@@ -1,0 +1,47 @@
+{
+  "CPIR-X1": {
+    "macro_cycle": true,
+    "macro_edges": [[0, 1], [1, 0]]
+  },
+  "CPIR-X2": {
+    "components": [[0, 1]],
+    "original_block_count": 2,
+    "repaired_block_count": 1,
+    "requires_recertification": true
+  },
+  "CPIR-X3": {
+    "lumpability_defect": 0.8
+  },
+  "CPIR-X4": {
+    "implementation_invariant": false,
+    "macro_effects": {"a": [1, 1], "b": [0, 0]}
+  },
+  "CPIR-X5": {
+    "lumpability_defect": 0.0,
+    "target_measurability_defect": 1.0
+  },
+  "CPIR-X6": {
+    "one_step_equal": true,
+    "two_step_equal": false,
+    "two_step_macro_rows": [[0.0, 1.0], [1.0, 0.0]]
+  },
+  "CPIR-X7": {
+    "persistence_measurability_defect": 1.0
+  },
+  "CPIR-X8": {
+    "compression_ratio": 2.0,
+    "macro_reachable_outputs": [0, 1],
+    "macro_state_count": 2,
+    "micro_reachable_outputs": [0, 1],
+    "micro_state_count": 4,
+    "new_reachable_capability": false
+  },
+  "positive": {
+    "implementation_invariant": true,
+    "lumpability_defect": 0.0,
+    "macro_kernel": [[0.8, 0.2], [0.3, 0.7]],
+    "persistence_measurability_defect": 0.0,
+    "target_measurability_defect": 0.0
+  }
+}
+

@@ -1,0 +1,424 @@
+{
+  "metastable_exact": {
+    "family": "SCC-F1-metastable",
+    "parameters": {
+      "cross_rate": 0.01,
+      "asymmetry": 0.0
+    },
+    "stochastic": true,
+    "second_eigenvalue": 0.9800000000000002,
+    "dynamical_response_alignment": 1.0000000000000002,
+    "response_intra_distortion": 0.0,
+    "closure_defect": 0.0,
+    "memory_residual": 5.724587470723463e-17,
+    "coarse_matrix": [
+      [
+        0.9899999999999999,
+        0.01
+      ],
+      [
+        0.01,
+        0.9899999999999999
+      ]
+    ]
+  },
+  "metastable_broken": {
+    "family": "SCC-F1-metastable",
+    "parameters": {
+      "cross_rate": 0.01,
+      "asymmetry": 0.4
+    },
+    "stochastic": true,
+    "second_eigenvalue": 0.9800888806591984,
+    "dynamical_response_alignment": 0.9999074288388916,
+    "response_intra_distortion": 0.026484450496125595,
+    "closure_defect": 0.008000000000000007,
+    "memory_residual": 0.005952000000000089,
+    "coarse_matrix": [
+      [
+        0.9899999999999999,
+        0.01
+      ],
+      [
+        0.01,
+        0.9899999999999999
+      ]
+    ]
+  },
+  "hierarchical_plateau": [
+    {
+      "family": "SCC-RG-F0-hierarchical",
+      "parameters": {
+        "macro_flip": 0.03,
+        "nuisance_flip": 0.16
+      },
+      "stochastic": true,
+      "second_eigenvalue": 0.9400000000000017,
+      "dynamical_response_alignment": 1.0,
+      "response_rg_alignment": 1.0,
+      "response_intra_distortion": 0.0,
+      "closure_defect": 3.469446951953614e-18,
+      "memory_residual": 1.1449174941446927e-16,
+      "coarse_matrix": [
+        [
+          0.97,
+          0.029999999999999992
+        ],
+        [
+          0.029999999999999992,
+          0.97
+        ]
+      ]
+    },
+    {
+      "family": "SCC-RG-F0-hierarchical",
+      "parameters": {
+        "macro_flip": 0.03,
+        "nuisance_flip": 0.22
+      },
+      "stochastic": true,
+      "second_eigenvalue": 0.94,
+      "dynamical_response_alignment": 1.0000000000000002,
+      "response_rg_alignment": 1.0,
+      "response_intra_distortion": 0.0,
+      "closure_defect": 0.0,
+      "memory_residual": 5.898059818321144e-17,
+      "coarse_matrix": [
+        [
+          0.9700000000000001,
+          0.03
+        ],
+        [
+          0.03,
+          0.9700000000000001
+        ]
+      ]
+    },
+    {
+      "family": "SCC-RG-F0-hierarchical",
+      "parameters": {
+        "macro_flip": 0.03,
+        "nuisance_flip": 0.28
+      },
+      "stochastic": true,
+      "second_eigenvalue": 0.9399999999999994,
+      "dynamical_response_alignment": 1.0,
+      "response_rg_alignment": 1.0,
+      "response_intra_distortion": 0.0,
+      "closure_defect": 1.1102230246251565e-16,
+      "memory_residual": 5.898059818321144e-17,
+      "coarse_matrix": [
+        [
+          0.97,
+          0.03
+        ],
+        [
+          0.03,
+          0.97
+        ]
+      ]
+    },
+    {
+      "family": "SCC-RG-F0-hierarchical",
+      "parameters": {
+        "macro_flip": 0.03,
+        "nuisance_flip": 0.34
+      },
+      "stochastic": true,
+      "second_eigenvalue": 0.9399999999999997,
+      "dynamical_response_alignment": 1.0000000000000002,
+      "response_rg_alignment": 1.0,
+      "response_intra_distortion": 0.0,
+      "closure_defect": 1.1102230246251565e-16,
+      "memory_residual": 1.734723475976807e-16,
+      "coarse_matrix": [
+        [
+          0.97,
+          0.03
+        ],
+        [
+          0.03,
+          0.97
+        ]
+      ]
+    },
+    {
+      "family": "SCC-RG-F0-hierarchical",
+      "parameters": {
+        "macro_flip": 0.03,
+        "nuisance_flip": 0.4
+      },
+      "stochastic": true,
+      "second_eigenvalue": 0.9399999999999994,
+      "dynamical_response_alignment": 1.0000000000000002,
+      "response_rg_alignment": 1.0,
+      "response_intra_distortion": 0.0,
+      "closure_defect": 0.0,
+      "memory_residual": 5.898059818321144e-17,
+      "coarse_matrix": [
+        [
+          0.97,
+          0.03
+        ],
+        [
+          0.03,
+          0.97
+        ]
+      ]
+    }
+  ],
+  "plateau_variation": {
+    "response_intra_distortion": 0.0,
+    "closure_defect": 1.1102230246251565e-16,
+    "memory_residual": 1.1449174941446927e-16,
+    "coarse_matrix": 1.1102230246251565e-16
+  },
+  "circulating_nonreversible": [
+    {
+      "family": "SCC-F2-circulating-nonreversible",
+      "parameters": {
+        "heterogeneity": 0.0,
+        "forward": 0.34,
+        "backward": 0.04
+      },
+      "stochastic": true,
+      "detailed_balance_defect": 0.03750000000000031,
+      "second_eigenvalue_real": 0.9599999999999997,
+      "second_eigenvalue_imag": 0.0,
+      "dynamical_response_alignment": 1.0,
+      "response_intra_distortion": 0.0,
+      "closure_defect": 1.1102230246251565e-16,
+      "memory_residual": 1.6653345369377348e-16,
+      "coarse_matrix": [
+        [
+          0.98,
+          0.02
+        ],
+        [
+          0.02,
+          0.98
+        ]
+      ]
+    },
+    {
+      "family": "SCC-F2-circulating-nonreversible",
+      "parameters": {
+        "heterogeneity": 0.1,
+        "forward": 0.34,
+        "backward": 0.04
+      },
+      "stochastic": true,
+      "detailed_balance_defect": 0.037500000000000505,
+      "second_eigenvalue_real": 0.9600138674486202,
+      "second_eigenvalue_imag": 0.0,
+      "dynamical_response_alignment": 0.9999832198617281,
+      "response_intra_distortion": 0.008600002693780105,
+      "closure_defect": 0.004000000000000115,
+      "memory_residual": 0.003234666666666809,
+      "coarse_matrix": [
+        [
+          0.9799999999999999,
+          0.020000000000000004
+        ],
+        [
+          0.020000000000000004,
+          0.9799999999999999
+        ]
+      ]
+    },
+    {
+      "family": "SCC-F2-circulating-nonreversible",
+      "parameters": {
+        "heterogeneity": 0.2,
+        "forward": 0.34,
+        "backward": 0.04
+      },
+      "stochastic": true,
+      "detailed_balance_defect": 0.03750000000000042,
+      "second_eigenvalue_real": 0.9600554699806585,
+      "second_eigenvalue_imag": 0.0,
+      "dynamical_response_alignment": 0.9999325923683575,
+      "response_intra_distortion": 0.017297067877995922,
+      "closure_defect": 0.008000000000000118,
+      "memory_residual": 0.0064853333333332805,
+      "coarse_matrix": [
+        [
+          0.98,
+          0.019999999999999997
+        ],
+        [
+          0.019999999999999997,
+          0.98
+        ]
+      ]
+    },
+    {
+      "family": "SCC-F2-circulating-nonreversible",
+      "parameters": {
+        "heterogeneity": 0.3,
+        "forward": 0.34,
+        "backward": 0.04
+      },
+      "stochastic": true,
+      "detailed_balance_defect": 0.03750000000000055,
+      "second_eigenvalue_real": 0.9601248081530879,
+      "second_eigenvalue_imag": 0.0,
+      "dynamical_response_alignment": 0.9998476933494126,
+      "response_intra_distortion": 0.026126255810635296,
+      "closure_defect": 0.012000000000000122,
+      "memory_residual": 0.009752000000000108,
+      "coarse_matrix": [
+        [
+          0.9799999999999999,
+          0.020000000000000004
+        ],
+        [
+          0.020000000000000004,
+          0.9799999999999999
+        ]
+      ]
+    },
+    {
+      "family": "SCC-F2-circulating-nonreversible",
+      "parameters": {
+        "heterogeneity": 0.4,
+        "forward": 0.34,
+        "backward": 0.04
+      },
+      "stochastic": true,
+      "detailed_balance_defect": 0.037500000000000096,
+      "second_eigenvalue_real": 0.9602218828889669,
+      "second_eigenvalue_imag": 0.0,
+      "dynamical_response_alignment": 0.9997281078004351,
+      "response_intra_distortion": 0.03512814022773103,
+      "closure_defect": 0.016000000000000125,
+      "memory_residual": 0.013034666666666595,
+      "coarse_matrix": [
+        [
+          0.98,
+          0.02
+        ],
+        [
+          0.02,
+          0.98
+        ]
+      ]
+    },
+    {
+      "family": "SCC-F2-circulating-nonreversible",
+      "parameters": {
+        "heterogeneity": 0.5,
+        "forward": 0.34,
+        "backward": 0.04
+      },
+      "stochastic": true,
+      "detailed_balance_defect": 0.03750000000000006,
+      "second_eigenvalue_real": 0.960346695469625,
+      "second_eigenvalue_imag": 0.0,
+      "dynamical_response_alignment": 0.9995734306050262,
+      "response_intra_distortion": 0.04435222056218814,
+      "closure_defect": 0.02000000000000013,
+      "memory_residual": 0.016333333333333436,
+      "coarse_matrix": [
+        [
+          0.9799999999999999,
+          0.02
+        ],
+        [
+          0.02,
+          0.9799999999999999
+        ]
+      ]
+    },
+    {
+      "family": "SCC-F2-circulating-nonreversible",
+      "parameters": {
+        "heterogeneity": 0.6,
+        "forward": 0.34,
+        "backward": 0.04
+      },
+      "stochastic": true,
+      "detailed_balance_defect": 0.03750000000000088,
+      "second_eigenvalue_real": 0.960499247523687,
+      "second_eigenvalue_imag": 0.0,
+      "dynamical_response_alignment": 0.9993832672680607,
+      "response_intra_distortion": 0.053862623400430625,
+      "closure_defect": 0.024000000000000132,
+      "memory_residual": 0.019647999999999943,
+      "coarse_matrix": [
+        [
+          0.98,
+          0.02
+        ],
+        [
+          0.02,
+          0.98
+        ]
+      ]
+    },
+    {
+      "family": "SCC-F2-circulating-nonreversible",
+      "parameters": {
+        "heterogeneity": 0.7,
+        "forward": 0.34,
+        "backward": 0.04
+      },
+      "stochastic": true,
+      "detailed_balance_defect": 0.037500000000000436,
+      "second_eigenvalue_real": 0.9606795410129679,
+      "second_eigenvalue_imag": 0.0,
+      "dynamical_response_alignment": 0.999157234658851,
+      "response_intra_distortion": 0.06374899068996479,
+      "closure_defect": 0.028000000000000136,
+      "memory_residual": 0.0229786666666668,
+      "coarse_matrix": [
+        [
+          0.9799999999999999,
+          0.020000000000000004
+        ],
+        [
+          0.020000000000000004,
+          0.9799999999999999
+        ]
+      ]
+    },
+    {
+      "family": "SCC-F2-circulating-nonreversible",
+      "parameters": {
+        "heterogeneity": 0.8,
+        "forward": 0.34,
+        "backward": 0.04
+      },
+      "stochastic": true,
+      "detailed_balance_defect": 0.03750000000000064,
+      "second_eigenvalue_real": 0.9608875782152357,
+      "second_eigenvalue_imag": 0.0,
+      "dynamical_response_alignment": 0.998894961762963,
+      "response_intra_distortion": 0.0741513231738781,
+      "closure_defect": 0.03200000000000014,
+      "memory_residual": 0.026325333333333433,
+      "coarse_matrix": [
+        [
+          0.9799999999999999,
+          0.02
+        ],
+        [
+          0.02,
+          0.9799999999999999
+        ]
+      ]
+    }
+  ],
+  "circulating_admission_thresholds": {
+    "response_intra_distortion": 0.01,
+    "closure_defect": 0.005,
+    "memory_residual": 0.005,
+    "dynamical_response_alignment": 0.99
+  },
+  "circulating_admitted_heterogeneity": [
+    0.0,
+    0.1
+  ],
+  "circulating_platform_endpoint": 0.1,
+  "registered_tolerance": 1e-12
+}
