@@ -12,8 +12,8 @@ version: 1.0.0
 date-released: "2026-09-10"
 license: "CC-BY-4.0"
 repository-code: "https://github.com/weijierry/dcs-finite-certification"
-url: "待 Zenodo 记录 URL"
-doi: "待 Zenodo 分配 DOI"
+url: "https://doi.org/10.6084/m9.figshare.33519052"
+doi: "10.6084/m9.figshare.33519052"
 keywords:
   - "causal abstraction"
   - "controlled Markov chains"

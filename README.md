@@ -65,4 +65,11 @@ CC BY 4.0 (see `LICENSE`). The paper and this reproduction package are distribut
 
 See `CITATION.cff`, or cite:
 
-> Rongjie Wei. (2026). A Typed Certification Protocol for Finite-State Causal Abstractions (version 1.0.0). [DOI to be assigned when archived.]
+> Rongjie Wei. (2026). A Typed Certification Protocol for Finite-State Causal Abstractions (version 1.0.0). https://doi.org/10.6084/m9.figshare.33519052
+
+## Archived copies
+
+- Figshare (published, DOI active): https://doi.org/10.6084/m9.figshare.33519052
+- Mendeley Data (under review): https://data.mendeley.com/drafts/2h2m99gm5h
+- Harvard Dataverse (under review): https://doi.org/10.7910/DVN/TT3HEA
+- OSF Preprints / MetaArXiv (pending moderation): https://osf.io/preprints/metaarxiv/g4zrx_v1
