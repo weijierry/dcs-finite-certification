@@ -9,9 +9,9 @@ authors:
     affiliation: "Independent Researcher"
     email: "weirongjie@f.mindas.me"
 version: 1.0.0
-date-released: "待实际公开日"
+date-released: "2026-09-10"
 license: "CC-BY-4.0"
-repository-code: "待代码仓库地址"
+repository-code: "https://github.com/weijierry/dcs-finite-certification"
 url: "待 Zenodo 记录 URL"
 doi: "待 Zenodo 分配 DOI"
 keywords:
