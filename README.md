@@ -2,6 +2,8 @@
 
 Release archive (v1.0.0, PDF + reproduction package): https://github.com/weijierry/dcs-finite-certification/releases/tag/v1.0.0
 
+Permanent archive (Zenodo DOI, published 2026-09-11): https://doi.org/10.5281/zenodo.22709952
+
 Reproduction archive for the preprint:
 
 **A Typed Certification Protocol for Finite-State Causal Abstractions** (The Finite Core of the DCS Research Program), Rongjie Wei, 2026. Preprint, not peer-reviewed.
@@ -67,10 +69,13 @@ CC BY 4.0 (see `LICENSE`). The paper and this reproduction package are distribut
 
 See `CITATION.cff`, or cite:
 
-> Rongjie Wei. (2026). A Typed Certification Protocol for Finite-State Causal Abstractions (version 1.0.0). https://doi.org/10.6084/m9.figshare.33519052
+> Rongjie Wei. (2026). A Typed Certification Protocol for Finite-State Causal Abstractions (version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22709952
+
+Also archived on Figshare: https://doi.org/10.6084/m9.figshare.33519052
 
 ## Archived copies
 
+- Zenodo (published, DOI active): https://doi.org/10.5281/zenodo.22709952
 - Figshare (published, DOI active): https://doi.org/10.6084/m9.figshare.33519052
 - Mendeley Data (under review): https://data.mendeley.com/drafts/2h2m99gm5h
 - Harvard Dataverse (under review): https://doi.org/10.7910/DVN/TT3HEA
