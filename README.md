@@ -71,13 +71,13 @@ See `CITATION.cff`, or cite:
 
 > Rongjie Wei. (2026). A Typed Certification Protocol for Finite-State Causal Abstractions (version 1.0.0). Zenodo. https://doi.org/10.5281/zenodo.22709952
 
-Also archived on Figshare: https://doi.org/10.6084/m9.figshare.33519052
+Also archived on Figshare: https://doi.org/10.6084/m9.figshare.33519052 and Mendeley Data: https://doi.org/10.17632/2h2m99gm5h.1
 
 ## Archived copies
 
 - Zenodo (published, DOI active): https://doi.org/10.5281/zenodo.22709952
 - Figshare (published, DOI active): https://doi.org/10.6084/m9.figshare.33519052
-- Mendeley Data (under review): https://data.mendeley.com/drafts/2h2m99gm5h
+- Mendeley Data (published, DOI active): https://doi.org/10.17632/2h2m99gm5h.1
 - Harvard Dataverse (under review): https://doi.org/10.7910/DVN/TT3HEA
 - OSF Preprints / MetaArXiv (pending moderation): https://osf.io/preprints/metaarxiv/g4zrx_v1
 - OSF Preprints / PsyArXiv (pending moderation): https://osf.io/preprints/psyarxiv/rpyze_v1
